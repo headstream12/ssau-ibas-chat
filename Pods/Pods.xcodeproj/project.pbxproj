@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BE0CA796236D1278BC73D40B1F5397D /* Pods-ssau-chat-ibasUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD04617089EF26F1C3B4EE0CF38CD8FF /* Pods-ssau-chat-ibasUITests-dummy.m */; };
+		9A6F6394ECEFF83D3A3EE481E0FBC321 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		A3FF5384D94490E52E455E191FDB049E /* Pods-ssau-chat-ibas-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD8DE805074A5CE69B159F7457DC0CD /* Pods-ssau-chat-ibas-dummy.m */; };
+		B0699FB7C8D87FB5A4C10C8803425DD4 /* Pods-ssau-chat-ibasTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DBFF0450C393AEFDAF22BE1C0867A0C /* Pods-ssau-chat-ibasTests-dummy.m */; };
+		BA8E1FD28C85EB5CB9F6DA0DCB50CFBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		F60B147BD8260BE3F068E2990E114D03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0607940828B15B5893AE212132FFFE2F /* Pods-ssau-chat-ibasUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ssau-chat-ibasUITests-frameworks.sh"; sourceTree = "<group>"; };
+		1BF03BF3AA52ECF85ED848C90CCBD809 /* Pods-ssau-chat-ibasUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ssau-chat-ibasUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1FE5E4C061FA0EF35796A79C1410272D /* Pods-ssau-chat-ibasUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ssau-chat-ibasUITests.release.xcconfig"; sourceTree = "<group>"; };
+		211C70A8E05DF9C1854B4BAAC77E9151 /* Pods-ssau-chat-ibas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ssau-chat-ibas.debug.xcconfig"; sourceTree = "<group>"; };
+		24B381E76B32993970544700C7AFE3ED /* Pods-ssau-chat-ibas-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ssau-chat-ibas-acknowledgements.markdown"; sourceTree = "<group>"; };
+		28D8643D60D10FDCD74B44A661C1EBCC /* Pods-ssau-chat-ibasTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ssau-chat-ibasTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5919951A85068033E7A7909F6DCC61D7 /* Pods-ssau-chat-ibasUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ssau-chat-ibasUITests-resources.sh"; sourceTree = "<group>"; };
+		5D434CB25EF6CE9559B19405F3B8C064 /* Pods-ssau-chat-ibasTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ssau-chat-ibasTests.release.xcconfig"; sourceTree = "<group>"; };
+		62946B6C2304F53A5ED85B8FB4764DB9 /* Pods-ssau-chat-ibasTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ssau-chat-ibasTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6DBFF0450C393AEFDAF22BE1C0867A0C /* Pods-ssau-chat-ibasTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ssau-chat-ibasTests-dummy.m"; sourceTree = "<group>"; };
+		6E9911570E212DD0EBDED8A8C1F83689 /* Pods-ssau-chat-ibasTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ssau-chat-ibasTests-frameworks.sh"; sourceTree = "<group>"; };
+		6FEBD5F3B5F7D83ED2FFAE0A268F8BF2 /* Pods-ssau-chat-ibasUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ssau-chat-ibasUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		75528BE1D75CE04C6EDC8A2048FE2DBF /* Pods-ssau-chat-ibas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ssau-chat-ibas.release.xcconfig"; sourceTree = "<group>"; };
+		7CEC6D2730C047CD3A840DE23FE2D247 /* Pods-ssau-chat-ibasTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ssau-chat-ibasTests-resources.sh"; sourceTree = "<group>"; };
+		86275810035B8702D328A28B43F30386 /* Pods-ssau-chat-ibasTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ssau-chat-ibasTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AD8DE805074A5CE69B159F7457DC0CD /* Pods-ssau-chat-ibas-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ssau-chat-ibas-dummy.m"; sourceTree = "<group>"; };
+		AF0247ABCB7FAA0145A24CAFD683D8A0 /* libPods-ssau-chat-ibas.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ssau-chat-ibas.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD04617089EF26F1C3B4EE0CF38CD8FF /* Pods-ssau-chat-ibasUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ssau-chat-ibasUITests-dummy.m"; sourceTree = "<group>"; };
+		C454878F24CC0D8493E1A182A936E0AB /* Pods-ssau-chat-ibas-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ssau-chat-ibas-acknowledgements.plist"; sourceTree = "<group>"; };
+		C8E30003FE60178903C89D074A950A74 /* Pods-ssau-chat-ibasUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ssau-chat-ibasUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E3D62E97904735659863D2601662F47E /* libPods-ssau-chat-ibasUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ssau-chat-ibasUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4EF3102A48B6120042C2C06F33FAA7B /* Pods-ssau-chat-ibas-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ssau-chat-ibas-frameworks.sh"; sourceTree = "<group>"; };
+		E539279996F6134EB5F7A280FC8041A0 /* Pods-ssau-chat-ibas-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ssau-chat-ibas-resources.sh"; sourceTree = "<group>"; };
+		EA36269A1643F2D1AE62E8D04BEF2018 /* libPods-ssau-chat-ibasTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ssau-chat-ibasTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4309ACBD8BEFE0C0EC294B71F98FABAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A6F6394ECEFF83D3A3EE481E0FBC321 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E51F8958FFE6EAE1521BBE222CA97662 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F60B147BD8260BE3F068E2990E114D03 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9966DA2E61A2A24328A3BA148F9D8D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8E1FD28C85EB5CB9F6DA0DCB50CFBD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12CC713AA92730640D470127AD5D1364 /* Pods-ssau-chat-ibasTests */ = {
+			isa = PBXGroup;
+			children = (
+				28D8643D60D10FDCD74B44A661C1EBCC /* Pods-ssau-chat-ibasTests-acknowledgements.markdown */,
+				86275810035B8702D328A28B43F30386 /* Pods-ssau-chat-ibasTests-acknowledgements.plist */,
+				6DBFF0450C393AEFDAF22BE1C0867A0C /* Pods-ssau-chat-ibasTests-dummy.m */,
+				6E9911570E212DD0EBDED8A8C1F83689 /* Pods-ssau-chat-ibasTests-frameworks.sh */,
+				7CEC6D2730C047CD3A840DE23FE2D247 /* Pods-ssau-chat-ibasTests-resources.sh */,
+				62946B6C2304F53A5ED85B8FB4764DB9 /* Pods-ssau-chat-ibasTests.debug.xcconfig */,
+				5D434CB25EF6CE9559B19405F3B8C064 /* Pods-ssau-chat-ibasTests.release.xcconfig */,
+			);
+			name = "Pods-ssau-chat-ibasTests";
+			path = "Target Support Files/Pods-ssau-chat-ibasTests";
+			sourceTree = "<group>";
+		};
+		17E88E1030A3C2C380CAE4ECFE6AC762 /* Pods-ssau-chat-ibasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1BF03BF3AA52ECF85ED848C90CCBD809 /* Pods-ssau-chat-ibasUITests-acknowledgements.markdown */,
+				6FEBD5F3B5F7D83ED2FFAE0A268F8BF2 /* Pods-ssau-chat-ibasUITests-acknowledgements.plist */,
+				BD04617089EF26F1C3B4EE0CF38CD8FF /* Pods-ssau-chat-ibasUITests-dummy.m */,
+				0607940828B15B5893AE212132FFFE2F /* Pods-ssau-chat-ibasUITests-frameworks.sh */,
+				5919951A85068033E7A7909F6DCC61D7 /* Pods-ssau-chat-ibasUITests-resources.sh */,
+				C8E30003FE60178903C89D074A950A74 /* Pods-ssau-chat-ibasUITests.debug.xcconfig */,
+				1FE5E4C061FA0EF35796A79C1410272D /* Pods-ssau-chat-ibasUITests.release.xcconfig */,
+			);
+			name = "Pods-ssau-chat-ibasUITests";
+			path = "Target Support Files/Pods-ssau-chat-ibasUITests";
+			sourceTree = "<group>";
+		};
+		382212C263D271880C99894AF39317CD /* Pods-ssau-chat-ibas */ = {
+			isa = PBXGroup;
+			children = (
+				24B381E76B32993970544700C7AFE3ED /* Pods-ssau-chat-ibas-acknowledgements.markdown */,
+				C454878F24CC0D8493E1A182A936E0AB /* Pods-ssau-chat-ibas-acknowledgements.plist */,
+				9AD8DE805074A5CE69B159F7457DC0CD /* Pods-ssau-chat-ibas-dummy.m */,
+				E4EF3102A48B6120042C2C06F33FAA7B /* Pods-ssau-chat-ibas-frameworks.sh */,
+				E539279996F6134EB5F7A280FC8041A0 /* Pods-ssau-chat-ibas-resources.sh */,
+				211C70A8E05DF9C1854B4BAAC77E9151 /* Pods-ssau-chat-ibas.debug.xcconfig */,
+				75528BE1D75CE04C6EDC8A2048FE2DBF /* Pods-ssau-chat-ibas.release.xcconfig */,
+			);
+			name = "Pods-ssau-chat-ibas";
+			path = "Target Support Files/Pods-ssau-chat-ibas";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D0D59C9CAB057D73DAFBA41625DE738A /* Products */,
+				98CB8983178C0D1BCBC6A33ED75A0CA6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		98CB8983178C0D1BCBC6A33ED75A0CA6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				382212C263D271880C99894AF39317CD /* Pods-ssau-chat-ibas */,
+				12CC713AA92730640D470127AD5D1364 /* Pods-ssau-chat-ibasTests */,
+				17E88E1030A3C2C380CAE4ECFE6AC762 /* Pods-ssau-chat-ibasUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0D59C9CAB057D73DAFBA41625DE738A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF0247ABCB7FAA0145A24CAFD683D8A0 /* libPods-ssau-chat-ibas.a */,
+				EA36269A1643F2D1AE62E8D04BEF2018 /* libPods-ssau-chat-ibasTests.a */,
+				E3D62E97904735659863D2601662F47E /* libPods-ssau-chat-ibasUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A26E64FE289AB728844B7D733EBA923 /* Pods-ssau-chat-ibasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7910B8406C867190121A12509A7A9A2 /* Build configuration list for PBXNativeTarget "Pods-ssau-chat-ibasUITests" */;
+			buildPhases = (
+				5BC2A9C9386680298C732D736C2AEBAE /* Sources */,
+				E51F8958FFE6EAE1521BBE222CA97662 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ssau-chat-ibasUITests";
+			productName = "Pods-ssau-chat-ibasUITests";
+			productReference = E3D62E97904735659863D2601662F47E /* libPods-ssau-chat-ibasUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6F26E5242255D8CA93F379D38F46CC71 /* Pods-ssau-chat-ibas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20E3B40F1B05DACE7102D0E13634A9AA /* Build configuration list for PBXNativeTarget "Pods-ssau-chat-ibas" */;
+			buildPhases = (
+				762259348E76B966E64D9A52EF1B9275 /* Sources */,
+				4309ACBD8BEFE0C0EC294B71F98FABAA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ssau-chat-ibas";
+			productName = "Pods-ssau-chat-ibas";
+			productReference = AF0247ABCB7FAA0145A24CAFD683D8A0 /* libPods-ssau-chat-ibas.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B3FEF7F006FFD5A7E6A96AF1D78DD794 /* Pods-ssau-chat-ibasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D0B0DE45AD8E42BD96B161E8C842F33 /* Build configuration list for PBXNativeTarget "Pods-ssau-chat-ibasTests" */;
+			buildPhases = (
+				7AD05164A3E8E34CCAD80665365F81FC /* Sources */,
+				F9966DA2E61A2A24328A3BA148F9D8D3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ssau-chat-ibasTests";
+			productName = "Pods-ssau-chat-ibasTests";
+			productReference = EA36269A1643F2D1AE62E8D04BEF2018 /* libPods-ssau-chat-ibasTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D0D59C9CAB057D73DAFBA41625DE738A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F26E5242255D8CA93F379D38F46CC71 /* Pods-ssau-chat-ibas */,
+				B3FEF7F006FFD5A7E6A96AF1D78DD794 /* Pods-ssau-chat-ibasTests */,
+				3A26E64FE289AB728844B7D733EBA923 /* Pods-ssau-chat-ibasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BC2A9C9386680298C732D736C2AEBAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BE0CA796236D1278BC73D40B1F5397D /* Pods-ssau-chat-ibasUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		762259348E76B966E64D9A52EF1B9275 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3FF5384D94490E52E455E191FDB049E /* Pods-ssau-chat-ibas-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AD05164A3E8E34CCAD80665365F81FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0699FB7C8D87FB5A4C10C8803425DD4 /* Pods-ssau-chat-ibasTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1BDCAE1A27613952BDBB50577D9303CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FE5E4C061FA0EF35796A79C1410272D /* Pods-ssau-chat-ibasUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1ED7CB83CD6296AC0052BC3E51882CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 211C70A8E05DF9C1854B4BAAC77E9151 /* Pods-ssau-chat-ibas.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		491F0A310A244466513E7841FAD0692C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75528BE1D75CE04C6EDC8A2048FE2DBF /* Pods-ssau-chat-ibas.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		510CFF25B8E09264AB28D91E6DA207AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8E30003FE60178903C89D074A950A74 /* Pods-ssau-chat-ibasUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9D4CC1F525C6BC562CEF605BCB98873D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D434CB25EF6CE9559B19405F3B8C064 /* Pods-ssau-chat-ibasTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E5D06070D7AA26AC7502896769E5C8F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62946B6C2304F53A5ED85B8FB4764DB9 /* Pods-ssau-chat-ibasTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20E3B40F1B05DACE7102D0E13634A9AA /* Build configuration list for PBXNativeTarget "Pods-ssau-chat-ibas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ED7CB83CD6296AC0052BC3E51882CC9 /* Debug */,
+				491F0A310A244466513E7841FAD0692C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
+				E72E7977875C2D251FC62736BBDDC389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D0B0DE45AD8E42BD96B161E8C842F33 /* Build configuration list for PBXNativeTarget "Pods-ssau-chat-ibasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5D06070D7AA26AC7502896769E5C8F2 /* Debug */,
+				9D4CC1F525C6BC562CEF605BCB98873D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7910B8406C867190121A12509A7A9A2 /* Build configuration list for PBXNativeTarget "Pods-ssau-chat-ibasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				510CFF25B8E09264AB28D91E6DA207AC /* Debug */,
+				1BDCAE1A27613952BDBB50577D9303CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
