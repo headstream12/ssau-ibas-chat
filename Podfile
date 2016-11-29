@@ -6,7 +6,7 @@ target 'ssau-chat-ibas' do
   # use_frameworks!
 
   # Pods for ssau-chat-ibas
-
+  pod 'SocketRocket'
   target 'ssau-chat-ibasTests' do
     inherit! :search_paths
     # Pods for testing

@@ -7,49 +7,77 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14C0485A9C3F985AB701BF6E01E8F0CF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CAF4AB1ECD042E4FED766B8370F6530 /* Security.framework */; };
+		2BCBC80C0C67381CCD4DF03DEB53BEDD /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5135EC14FA83C331E94D40C19DAB0764 /* CFNetwork.framework */; };
 		4BE0CA796236D1278BC73D40B1F5397D /* Pods-ssau-chat-ibasUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD04617089EF26F1C3B4EE0CF38CD8FF /* Pods-ssau-chat-ibasUITests-dummy.m */; };
-		9A6F6394ECEFF83D3A3EE481E0FBC321 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		A3FF5384D94490E52E455E191FDB049E /* Pods-ssau-chat-ibas-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD8DE805074A5CE69B159F7457DC0CD /* Pods-ssau-chat-ibas-dummy.m */; };
+		4E4D28FAA53EA45ED95B95CB4A317BE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EABC45C2732A4ED943A7E8ECF24F14F7 /* Foundation.framework */; };
+		59BA90BCAEFB4E35E4463D895127E2EC /* SRWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AF4E5EED2BE7953295FCE1F8F29887B /* SRWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F8E32227FD56BD28C0D627B399DE7D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EABC45C2732A4ED943A7E8ECF24F14F7 /* Foundation.framework */; };
+		70CCA9891258E3D23169DE0E5A75183F /* SocketRocket.h in Headers */ = {isa = PBXBuildFile; fileRef = E3AD439A80B2F1ABD299002CAA341262 /* SocketRocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FCB52090E008A2760A5C9250A43003E /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 1095759AC714C71F66EB69CA0E335A64 /* SRWebSocket.m */; };
 		B0699FB7C8D87FB5A4C10C8803425DD4 /* Pods-ssau-chat-ibasTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DBFF0450C393AEFDAF22BE1C0867A0C /* Pods-ssau-chat-ibasTests-dummy.m */; };
-		BA8E1FD28C85EB5CB9F6DA0DCB50CFBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		F60B147BD8260BE3F068E2990E114D03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		BA8E1FD28C85EB5CB9F6DA0DCB50CFBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EABC45C2732A4ED943A7E8ECF24F14F7 /* Foundation.framework */; };
+		C861453B5245A3062FCFECDF9F87517C /* Pods-ssau-chat-ibas-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD8DE805074A5CE69B159F7457DC0CD /* Pods-ssau-chat-ibas-dummy.m */; };
+		D0D95079A698FAD33B4830956887A4B2 /* SocketRocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD643BBD53C0BC9592126E22C82B77A /* SocketRocket-dummy.m */; };
+		F60B147BD8260BE3F068E2990E114D03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EABC45C2732A4ED943A7E8ECF24F14F7 /* Foundation.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F30DB037CA4EB42A722FE470222D473 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B02A30547624DC10C22AA09AA8B14B76;
+			remoteInfo = SocketRocket;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0607940828B15B5893AE212132FFFE2F /* Pods-ssau-chat-ibasUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ssau-chat-ibasUITests-frameworks.sh"; sourceTree = "<group>"; };
+		09DE9C9ED81BB6DBD7D67E20D4E7D031 /* libSocketRocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSocketRocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1095759AC714C71F66EB69CA0E335A64 /* SRWebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRWebSocket.m; path = SocketRocket/SRWebSocket.m; sourceTree = "<group>"; };
+		1AD643BBD53C0BC9592126E22C82B77A /* SocketRocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SocketRocket-dummy.m"; sourceTree = "<group>"; };
 		1BF03BF3AA52ECF85ED848C90CCBD809 /* Pods-ssau-chat-ibasUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ssau-chat-ibasUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1FE5E4C061FA0EF35796A79C1410272D /* Pods-ssau-chat-ibasUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ssau-chat-ibasUITests.release.xcconfig"; sourceTree = "<group>"; };
 		211C70A8E05DF9C1854B4BAAC77E9151 /* Pods-ssau-chat-ibas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ssau-chat-ibas.debug.xcconfig"; sourceTree = "<group>"; };
 		24B381E76B32993970544700C7AFE3ED /* Pods-ssau-chat-ibas-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ssau-chat-ibas-acknowledgements.markdown"; sourceTree = "<group>"; };
 		28D8643D60D10FDCD74B44A661C1EBCC /* Pods-ssau-chat-ibasTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ssau-chat-ibasTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		360C3EDC9EEA5A79123FBEC4A74BE2D3 /* libPods-ssau-chat-ibasTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ssau-chat-ibasTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5135EC14FA83C331E94D40C19DAB0764 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		5919951A85068033E7A7909F6DCC61D7 /* Pods-ssau-chat-ibasUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ssau-chat-ibasUITests-resources.sh"; sourceTree = "<group>"; };
+		5AF4E5EED2BE7953295FCE1F8F29887B /* SRWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRWebSocket.h; path = SocketRocket/SRWebSocket.h; sourceTree = "<group>"; };
 		5D434CB25EF6CE9559B19405F3B8C064 /* Pods-ssau-chat-ibasTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ssau-chat-ibasTests.release.xcconfig"; sourceTree = "<group>"; };
 		62946B6C2304F53A5ED85B8FB4764DB9 /* Pods-ssau-chat-ibasTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ssau-chat-ibasTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6DBFF0450C393AEFDAF22BE1C0867A0C /* Pods-ssau-chat-ibasTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ssau-chat-ibasTests-dummy.m"; sourceTree = "<group>"; };
 		6E9911570E212DD0EBDED8A8C1F83689 /* Pods-ssau-chat-ibasTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ssau-chat-ibasTests-frameworks.sh"; sourceTree = "<group>"; };
 		6FEBD5F3B5F7D83ED2FFAE0A268F8BF2 /* Pods-ssau-chat-ibasUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ssau-chat-ibasUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		75528BE1D75CE04C6EDC8A2048FE2DBF /* Pods-ssau-chat-ibas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ssau-chat-ibas.release.xcconfig"; sourceTree = "<group>"; };
+		7CAF4AB1ECD042E4FED766B8370F6530 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		7CEC6D2730C047CD3A840DE23FE2D247 /* Pods-ssau-chat-ibasTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ssau-chat-ibasTests-resources.sh"; sourceTree = "<group>"; };
+		81ED5606DF56484C11C9E852E586A23C /* SocketRocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-prefix.pch"; sourceTree = "<group>"; };
 		86275810035B8702D328A28B43F30386 /* Pods-ssau-chat-ibasTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ssau-chat-ibasTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9AD8DE805074A5CE69B159F7457DC0CD /* Pods-ssau-chat-ibas-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ssau-chat-ibas-dummy.m"; sourceTree = "<group>"; };
-		AF0247ABCB7FAA0145A24CAFD683D8A0 /* libPods-ssau-chat-ibas.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ssau-chat-ibas.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A083AEEB4A92309743ABC67E663AE4BE /* libPods-ssau-chat-ibasUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ssau-chat-ibasUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD04617089EF26F1C3B4EE0CF38CD8FF /* Pods-ssau-chat-ibasUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ssau-chat-ibasUITests-dummy.m"; sourceTree = "<group>"; };
 		C454878F24CC0D8493E1A182A936E0AB /* Pods-ssau-chat-ibas-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ssau-chat-ibas-acknowledgements.plist"; sourceTree = "<group>"; };
 		C8E30003FE60178903C89D074A950A74 /* Pods-ssau-chat-ibasUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ssau-chat-ibasUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E3D62E97904735659863D2601662F47E /* libPods-ssau-chat-ibasUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ssau-chat-ibasUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D271E1ACC894BAE9E6FC8AAAF017C9F4 /* SocketRocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SocketRocket.xcconfig; sourceTree = "<group>"; };
+		E3AD439A80B2F1ABD299002CAA341262 /* SocketRocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SocketRocket.h; path = SocketRocket/SocketRocket.h; sourceTree = "<group>"; };
 		E4EF3102A48B6120042C2C06F33FAA7B /* Pods-ssau-chat-ibas-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ssau-chat-ibas-frameworks.sh"; sourceTree = "<group>"; };
 		E539279996F6134EB5F7A280FC8041A0 /* Pods-ssau-chat-ibas-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ssau-chat-ibas-resources.sh"; sourceTree = "<group>"; };
-		EA36269A1643F2D1AE62E8D04BEF2018 /* libPods-ssau-chat-ibasTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ssau-chat-ibasTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EABC45C2732A4ED943A7E8ECF24F14F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EDF6D7DE7E00CCD90FE074E808A984D9 /* libPods-ssau-chat-ibas.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ssau-chat-ibas.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4309ACBD8BEFE0C0EC294B71F98FABAA /* Frameworks */ = {
+		0F864063C649D308F53923C152BC6070 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A6F6394ECEFF83D3A3EE481E0FBC321 /* Foundation.framework in Frameworks */,
+				2BCBC80C0C67381CCD4DF03DEB53BEDD /* CFNetwork.framework in Frameworks */,
+				4E4D28FAA53EA45ED95B95CB4A317BE0 /* Foundation.framework in Frameworks */,
+				14C0485A9C3F985AB701BF6E01E8F0CF /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +86,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F60B147BD8260BE3F068E2990E114D03 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC86DAA936C9C7F899F802F9BEFCE2EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F8E32227FD56BD28C0D627B399DE7D2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +108,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04310F8822AFFD42107F8DA169E0A47A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D271E1ACC894BAE9E6FC8AAAF017C9F4 /* SocketRocket.xcconfig */,
+				1AD643BBD53C0BC9592126E22C82B77A /* SocketRocket-dummy.m */,
+				81ED5606DF56484C11C9E852E586A23C /* SocketRocket-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SocketRocket";
+			sourceTree = "<group>";
+		};
+		1178F420F04662BB9B205EF659BBA2AB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5135EC14FA83C331E94D40C19DAB0764 /* CFNetwork.framework */,
+				EABC45C2732A4ED943A7E8ECF24F14F7 /* Foundation.framework */,
+				7CAF4AB1ECD042E4FED766B8370F6530 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1178F420F04662BB9B205EF659BBA2AB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		12CC713AA92730640D470127AD5D1364 /* Pods-ssau-chat-ibasTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +167,17 @@
 			path = "Target Support Files/Pods-ssau-chat-ibasUITests";
 			sourceTree = "<group>";
 		};
+		36BDEB377327166B9CB2F714F898BC04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDF6D7DE7E00CCD90FE074E808A984D9 /* libPods-ssau-chat-ibas.a */,
+				360C3EDC9EEA5A79123FBEC4A74BE2D3 /* libPods-ssau-chat-ibasTests.a */,
+				A083AEEB4A92309743ABC67E663AE4BE /* libPods-ssau-chat-ibasUITests.a */,
+				09DE9C9ED81BB6DBD7D67E20D4E7D031 /* libSocketRocket.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		382212C263D271880C99894AF39317CD /* Pods-ssau-chat-ibas */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,20 +193,32 @@
 			path = "Target Support Files/Pods-ssau-chat-ibas";
 			sourceTree = "<group>";
 		};
-		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+		4FF663BB937700D1580BDAB7F3EF0D97 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+				702DD509C6164C2492FCB546BD72BB07 /* SocketRocket */,
 			);
-			name = iOS;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		702DD509C6164C2492FCB546BD72BB07 /* SocketRocket */ = {
+			isa = PBXGroup;
+			children = (
+				E3AD439A80B2F1ABD299002CAA341262 /* SocketRocket.h */,
+				5AF4E5EED2BE7953295FCE1F8F29887B /* SRWebSocket.h */,
+				1095759AC714C71F66EB69CA0E335A64 /* SRWebSocket.m */,
+				04310F8822AFFD42107F8DA169E0A47A /* Support Files */,
+			);
+			path = SocketRocket;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				D0D59C9CAB057D73DAFBA41625DE738A /* Products */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				4FF663BB937700D1580BDAB7F3EF0D97 /* Pods */,
+				36BDEB377327166B9CB2F714F898BC04 /* Products */,
 				98CB8983178C0D1BCBC6A33ED75A0CA6 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -145,25 +233,19 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D0D59C9CAB057D73DAFBA41625DE738A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				AF0247ABCB7FAA0145A24CAFD683D8A0 /* libPods-ssau-chat-ibas.a */,
-				EA36269A1643F2D1AE62E8D04BEF2018 /* libPods-ssau-chat-ibasTests.a */,
-				E3D62E97904735659863D2601662F47E /* libPods-ssau-chat-ibasUITests.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AA63A0190AA5E7CD6D0F47B9D4D36A6E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70CCA9891258E3D23169DE0E5A75183F /* SocketRocket.h in Headers */,
+				59BA90BCAEFB4E35E4463D895127E2EC /* SRWebSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		3A26E64FE289AB728844B7D733EBA923 /* Pods-ssau-chat-ibasUITests */ = {
@@ -179,23 +261,41 @@
 			);
 			name = "Pods-ssau-chat-ibasUITests";
 			productName = "Pods-ssau-chat-ibasUITests";
-			productReference = E3D62E97904735659863D2601662F47E /* libPods-ssau-chat-ibasUITests.a */;
+			productReference = A083AEEB4A92309743ABC67E663AE4BE /* libPods-ssau-chat-ibasUITests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		6F26E5242255D8CA93F379D38F46CC71 /* Pods-ssau-chat-ibas */ = {
+		675C6781C6D987FA1178270184C13408 /* Pods-ssau-chat-ibas */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 20E3B40F1B05DACE7102D0E13634A9AA /* Build configuration list for PBXNativeTarget "Pods-ssau-chat-ibas" */;
+			buildConfigurationList = 77E89D29B8415937CAEAC755CD381EAF /* Build configuration list for PBXNativeTarget "Pods-ssau-chat-ibas" */;
 			buildPhases = (
-				762259348E76B966E64D9A52EF1B9275 /* Sources */,
-				4309ACBD8BEFE0C0EC294B71F98FABAA /* Frameworks */,
+				2C62EB1DD2112F62689DFBCB1E31EA12 /* Sources */,
+				EC86DAA936C9C7F899F802F9BEFCE2EE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12B3DB9D2F7CC416F55E993C68F5DFA2 /* PBXTargetDependency */,
+			);
+			name = "Pods-ssau-chat-ibas";
+			productName = "Pods-ssau-chat-ibas";
+			productReference = EDF6D7DE7E00CCD90FE074E808A984D9 /* libPods-ssau-chat-ibas.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B02A30547624DC10C22AA09AA8B14B76 /* SocketRocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE99E9ED502ABDBE04B7B71BBF188F12 /* Build configuration list for PBXNativeTarget "SocketRocket" */;
+			buildPhases = (
+				79C1C12E66CE64B213B54BB2FFF17358 /* Sources */,
+				0F864063C649D308F53923C152BC6070 /* Frameworks */,
+				AA63A0190AA5E7CD6D0F47B9D4D36A6E /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-ssau-chat-ibas";
-			productName = "Pods-ssau-chat-ibas";
-			productReference = AF0247ABCB7FAA0145A24CAFD683D8A0 /* libPods-ssau-chat-ibas.a */;
+			name = SocketRocket;
+			productName = SocketRocket;
+			productReference = 09DE9C9ED81BB6DBD7D67E20D4E7D031 /* libSocketRocket.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		B3FEF7F006FFD5A7E6A96AF1D78DD794 /* Pods-ssau-chat-ibasTests */ = {
@@ -211,7 +311,7 @@
 			);
 			name = "Pods-ssau-chat-ibasTests";
 			productName = "Pods-ssau-chat-ibasTests";
-			productReference = EA36269A1643F2D1AE62E8D04BEF2018 /* libPods-ssau-chat-ibasTests.a */;
+			productReference = 360C3EDC9EEA5A79123FBEC4A74BE2D3 /* libPods-ssau-chat-ibasTests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -231,18 +331,27 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = D0D59C9CAB057D73DAFBA41625DE738A /* Products */;
+			productRefGroup = 36BDEB377327166B9CB2F714F898BC04 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6F26E5242255D8CA93F379D38F46CC71 /* Pods-ssau-chat-ibas */,
+				675C6781C6D987FA1178270184C13408 /* Pods-ssau-chat-ibas */,
 				B3FEF7F006FFD5A7E6A96AF1D78DD794 /* Pods-ssau-chat-ibasTests */,
 				3A26E64FE289AB728844B7D733EBA923 /* Pods-ssau-chat-ibasUITests */,
+				B02A30547624DC10C22AA09AA8B14B76 /* SocketRocket */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2C62EB1DD2112F62689DFBCB1E31EA12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C861453B5245A3062FCFECDF9F87517C /* Pods-ssau-chat-ibas-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5BC2A9C9386680298C732D736C2AEBAE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -251,11 +360,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		762259348E76B966E64D9A52EF1B9275 /* Sources */ = {
+		79C1C12E66CE64B213B54BB2FFF17358 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3FF5384D94490E52E455E191FDB049E /* Pods-ssau-chat-ibas-dummy.m in Sources */,
+				D0D95079A698FAD33B4830956887A4B2 /* SocketRocket-dummy.m in Sources */,
+				8FCB52090E008A2760A5C9250A43003E /* SRWebSocket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +379,39 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		12B3DB9D2F7CC416F55E993C68F5DFA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SocketRocket;
+			target = B02A30547624DC10C22AA09AA8B14B76 /* SocketRocket */;
+			targetProxy = 3F30DB037CA4EB42A722FE470222D473 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		047F9AA9FFDF7A8BD29F68380752E8D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D271E1ACC894BAE9E6FC8AAAF017C9F4 /* SocketRocket.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -337,30 +479,7 @@
 			};
 			name = Release;
 		};
-		1ED7CB83CD6296AC0052BC3E51882CC9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 211C70A8E05DF9C1854B4BAAC77E9151 /* Pods-ssau-chat-ibas.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		491F0A310A244466513E7841FAD0692C /* Release */ = {
+		20010BD97545DA0498B7549B97F1FF94 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 75528BE1D75CE04C6EDC8A2048FE2DBF /* Pods-ssau-chat-ibas.release.xcconfig */;
 			buildSettings = {
@@ -406,6 +525,29 @@
 			};
 			name = Debug;
 		};
+		525E2E69FE272570F1E1DBD1E80B666F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D271E1ACC894BAE9E6FC8AAAF017C9F4 /* SocketRocket.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
 		9D4CC1F525C6BC562CEF605BCB98873D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5D434CB25EF6CE9559B19405F3B8C064 /* Pods-ssau-chat-ibasTests.release.xcconfig */;
@@ -428,6 +570,29 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
+		};
+		B40FADE5C5D21A9CDE19EAD9E45AA6A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 211C70A8E05DF9C1854B4BAAC77E9151 /* Pods-ssau-chat-ibas.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
 		};
 		E5D06070D7AA26AC7502896769E5C8F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -495,15 +660,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		20E3B40F1B05DACE7102D0E13634A9AA /* Build configuration list for PBXNativeTarget "Pods-ssau-chat-ibas" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1ED7CB83CD6296AC0052BC3E51882CC9 /* Debug */,
-				491F0A310A244466513E7841FAD0692C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -522,11 +678,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		77E89D29B8415937CAEAC755CD381EAF /* Build configuration list for PBXNativeTarget "Pods-ssau-chat-ibas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B40FADE5C5D21A9CDE19EAD9E45AA6A5 /* Debug */,
+				20010BD97545DA0498B7549B97F1FF94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B7910B8406C867190121A12509A7A9A2 /* Build configuration list for PBXNativeTarget "Pods-ssau-chat-ibasUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				510CFF25B8E09264AB28D91E6DA207AC /* Debug */,
 				1BDCAE1A27613952BDBB50577D9303CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE99E9ED502ABDBE04B7B71BBF188F12 /* Build configuration list for PBXNativeTarget "SocketRocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525E2E69FE272570F1E1DBD1E80B666F /* Debug */,
+				047F9AA9FFDF7A8BD29F68380752E8D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -10,6 +10,12 @@
 		3344FABC320F0D902A06FD36 /* libPods-ssau-chat-ibasUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63771A0F4345E2B1F4A35F22 /* libPods-ssau-chat-ibasUITests.a */; };
 		496F14313FE6D13397FB8FEA /* libPods-ssau-chat-ibas.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0B72750C962D7FAB2FAF488 /* libPods-ssau-chat-ibas.a */; };
 		68EC348AAE2C28B41B067B5F /* libPods-ssau-chat-ibasTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80115AB9B6C65CD990EE718C /* libPods-ssau-chat-ibasTests.a */; };
+		B05C43A01DEDD17E0008BB41 /* socket.io-objc.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B05C43941DEDD17D0008BB41 /* socket.io-objc.podspec */; };
+		B05C43A11DEDD17E0008BB41 /* SocketIO.m in Sources */ = {isa = PBXBuildFile; fileRef = B05C43961DEDD17D0008BB41 /* SocketIO.m */; };
+		B05C43A21DEDD17E0008BB41 /* SocketIOJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = B05C43981DEDD17D0008BB41 /* SocketIOJSONSerialization.m */; };
+		B05C43A31DEDD17E0008BB41 /* SocketIOPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = B05C439A1DEDD17D0008BB41 /* SocketIOPacket.m */; };
+		B05C43A41DEDD17E0008BB41 /* SocketIOTransportWebsocket.m in Sources */ = {isa = PBXBuildFile; fileRef = B05C439D1DEDD17D0008BB41 /* SocketIOTransportWebsocket.m */; };
+		B05C43A51DEDD17E0008BB41 /* SocketIOTransportXHR.m in Sources */ = {isa = PBXBuildFile; fileRef = B05C439F1DEDD17D0008BB41 /* SocketIOTransportXHR.m */; };
 		B08CFA551DE1D93D00BB0ABA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B08CFA541DE1D93D00BB0ABA /* main.m */; };
 		B08CFA581DE1D93D00BB0ABA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B08CFA571DE1D93D00BB0ABA /* AppDelegate.m */; };
 		B08CFA5B1DE1D93D00BB0ABA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B08CFA5A1DE1D93D00BB0ABA /* ViewController.m */; };
@@ -45,6 +51,18 @@
 		9054DE7294751D39DBCBB8B9 /* Pods-ssau-chat-ibasUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ssau-chat-ibasUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ssau-chat-ibasUITests/Pods-ssau-chat-ibasUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A0B72750C962D7FAB2FAF488 /* libPods-ssau-chat-ibas.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ssau-chat-ibas.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1083EA35C99D5301FB15402 /* Pods-ssau-chat-ibas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ssau-chat-ibas.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ssau-chat-ibas/Pods-ssau-chat-ibas.debug.xcconfig"; sourceTree = "<group>"; };
+		B05C43941DEDD17D0008BB41 /* socket.io-objc.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "socket.io-objc.podspec"; path = "../../Downloads/socket-2.IO-objc-master/socket.io-objc.podspec"; sourceTree = "<group>"; };
+		B05C43951DEDD17D0008BB41 /* SocketIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SocketIO.h; path = "../../Downloads/socket-2.IO-objc-master/SocketIO.h"; sourceTree = "<group>"; };
+		B05C43961DEDD17D0008BB41 /* SocketIO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SocketIO.m; path = "../../Downloads/socket-2.IO-objc-master/SocketIO.m"; sourceTree = "<group>"; };
+		B05C43971DEDD17D0008BB41 /* SocketIOJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SocketIOJSONSerialization.h; path = "../../Downloads/socket-2.IO-objc-master/SocketIOJSONSerialization.h"; sourceTree = "<group>"; };
+		B05C43981DEDD17D0008BB41 /* SocketIOJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SocketIOJSONSerialization.m; path = "../../Downloads/socket-2.IO-objc-master/SocketIOJSONSerialization.m"; sourceTree = "<group>"; };
+		B05C43991DEDD17D0008BB41 /* SocketIOPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SocketIOPacket.h; path = "../../Downloads/socket-2.IO-objc-master/SocketIOPacket.h"; sourceTree = "<group>"; };
+		B05C439A1DEDD17D0008BB41 /* SocketIOPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SocketIOPacket.m; path = "../../Downloads/socket-2.IO-objc-master/SocketIOPacket.m"; sourceTree = "<group>"; };
+		B05C439B1DEDD17D0008BB41 /* SocketIOTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SocketIOTransport.h; path = "../../Downloads/socket-2.IO-objc-master/SocketIOTransport.h"; sourceTree = "<group>"; };
+		B05C439C1DEDD17D0008BB41 /* SocketIOTransportWebsocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SocketIOTransportWebsocket.h; path = "../../Downloads/socket-2.IO-objc-master/SocketIOTransportWebsocket.h"; sourceTree = "<group>"; };
+		B05C439D1DEDD17D0008BB41 /* SocketIOTransportWebsocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SocketIOTransportWebsocket.m; path = "../../Downloads/socket-2.IO-objc-master/SocketIOTransportWebsocket.m"; sourceTree = "<group>"; };
+		B05C439E1DEDD17D0008BB41 /* SocketIOTransportXHR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SocketIOTransportXHR.h; path = "../../Downloads/socket-2.IO-objc-master/SocketIOTransportXHR.h"; sourceTree = "<group>"; };
+		B05C439F1DEDD17D0008BB41 /* SocketIOTransportXHR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SocketIOTransportXHR.m; path = "../../Downloads/socket-2.IO-objc-master/SocketIOTransportXHR.m"; sourceTree = "<group>"; };
 		B08CFA501DE1D93D00BB0ABA /* ssau-chat-ibas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ssau-chat-ibas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B08CFA541DE1D93D00BB0ABA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B08CFA561DE1D93D00BB0ABA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -106,6 +124,25 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		B05C43931DEDD1680008BB41 /* socketio */ = {
+			isa = PBXGroup;
+			children = (
+				B05C43941DEDD17D0008BB41 /* socket.io-objc.podspec */,
+				B05C43951DEDD17D0008BB41 /* SocketIO.h */,
+				B05C43961DEDD17D0008BB41 /* SocketIO.m */,
+				B05C43971DEDD17D0008BB41 /* SocketIOJSONSerialization.h */,
+				B05C43981DEDD17D0008BB41 /* SocketIOJSONSerialization.m */,
+				B05C43991DEDD17D0008BB41 /* SocketIOPacket.h */,
+				B05C439A1DEDD17D0008BB41 /* SocketIOPacket.m */,
+				B05C439B1DEDD17D0008BB41 /* SocketIOTransport.h */,
+				B05C439C1DEDD17D0008BB41 /* SocketIOTransportWebsocket.h */,
+				B05C439D1DEDD17D0008BB41 /* SocketIOTransportWebsocket.m */,
+				B05C439E1DEDD17D0008BB41 /* SocketIOTransportXHR.h */,
+				B05C439F1DEDD17D0008BB41 /* SocketIOTransportXHR.m */,
+			);
+			name = socketio;
+			sourceTree = "<group>";
+		};
 		B08CFA471DE1D93C00BB0ABA = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +168,7 @@
 		B08CFA521DE1D93D00BB0ABA /* ssau-chat-ibas */ = {
 			isa = PBXGroup;
 			children = (
+				B05C43931DEDD1680008BB41 /* socketio */,
 				B08CFA561DE1D93D00BB0ABA /* AppDelegate.h */,
 				B08CFA571DE1D93D00BB0ABA /* AppDelegate.m */,
 				B08CFA591DE1D93D00BB0ABA /* ViewController.h */,
@@ -298,6 +336,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B05C43A01DEDD17E0008BB41 /* socket.io-objc.podspec in Resources */,
 				B08CFA631DE1D93D00BB0ABA /* LaunchScreen.storyboard in Resources */,
 				B08CFA601DE1D93D00BB0ABA /* Assets.xcassets in Resources */,
 				B08CFA5E1DE1D93D00BB0ABA /* Main.storyboard in Resources */,
@@ -464,7 +503,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B08CFA5B1DE1D93D00BB0ABA /* ViewController.m in Sources */,
+				B05C43A51DEDD17E0008BB41 /* SocketIOTransportXHR.m in Sources */,
+				B05C43A41DEDD17E0008BB41 /* SocketIOTransportWebsocket.m in Sources */,
 				B08CFA581DE1D93D00BB0ABA /* AppDelegate.m in Sources */,
+				B05C43A31DEDD17E0008BB41 /* SocketIOPacket.m in Sources */,
+				B05C43A21DEDD17E0008BB41 /* SocketIOJSONSerialization.m in Sources */,
+				B05C43A11DEDD17E0008BB41 /* SocketIO.m in Sources */,
 				B08CFA551DE1D93D00BB0ABA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -19,6 +19,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SocketRocket.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -27,7 +32,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6F26E5242255D8CA93F379D38F46CC71</key>
+		<key>675C6781C6D987FA1178270184C13408</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B02A30547624DC10C22AA09AA8B14B76</key>
 		<dict>
 			<key>primary</key>
 			<true/>
